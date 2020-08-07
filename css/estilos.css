@@ -57,6 +57,7 @@ html
   width: 40px;
   height: 40px;
   margin: auto;
+  display: block;
 }
 
 .icono_Remove
@@ -64,6 +65,7 @@ html
   width: 30px;
   height: 30px;
   margin: auto;
+  display: block;
 }
 
 .entrada
@@ -72,31 +74,22 @@ html
   margin: auto;
 }
 
+/* label color */
+.input-field label 
+{
+  color: white;
+}
 
+.input-field input[type=text]:focus + label, .materialize-textarea:focus:not([readonly]) + label 
+    {color: white !important;}
 
-  /* label color */
-   .input-field label {
-     color: white;
-   }
-
- .input-field input[type=text]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
-     color: white !important;
-    }
-
-/* label underline focus color */
-    .input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]) {
+.input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]) 
+{
      border-bottom: 1px solid white !important;
      box-shadow: 0 1px 0 0 white !important;
-    }
+}
 
 #boton
 {
   margin-top: 5%;
-}
-
-
-
-.icono
-{
-
 }
