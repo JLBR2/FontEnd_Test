@@ -1,0 +1,102 @@
+html
+{
+  background: linear-gradient(to bottom right, rgb(182,251,88), rgb(100,222,248));
+  background-attachment:fixed;
+}
+
+.Lista
+{
+  width: 60%;
+  margin: 0 auto;
+  align-items: center;
+  align-content: center;
+}
+
+#logotipo
+{
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+}
+
+#titulo
+{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+#titulo_Lista
+{
+  background-color: rgb(182,252,91);
+  margin: 0;
+}
+
+.fila_Lista
+{
+  background-color: white;
+  margin: 0;
+}
+
+.tarea
+{
+  text-align: justify;
+  padding-left: 10px;
+}
+
+#mensaje
+{
+  text-align: center;
+  padding-left: 10px; 
+  margin: 0;
+}
+
+#icono_Recycle
+{
+  width: 40px;
+  height: 40px;
+  margin: auto;
+}
+
+.icono_Remove
+{
+  width: 30px;
+  height: 30px;
+  margin: auto;
+}
+
+.entrada
+{
+  width: 60%;
+  margin: auto;
+}
+
+
+
+  /* label color */
+   .input-field label {
+     color: white;
+   }
+
+ .input-field input[type=text]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+     color: white !important;
+    }
+
+/* label underline focus color */
+    .input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]) {
+     border-bottom: 1px solid white !important;
+     box-shadow: 0 1px 0 0 white !important;
+    }
+
+#boton
+{
+  margin-top: 5%;
+}
+
+
+
+.icono
+{
+
+}
